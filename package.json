@@ -17,6 +17,7 @@
     "babel-preset-stage-1": "^6.3.13",
     "css-loader": "^0.23.0",
     "html-webpack-plugin": "^1.7.0",
+    "react-transform-hmr": "^1.0.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0",
