@@ -1,3 +1,41 @@
 body {
   background-color: #ebebeb
 }
+.board{
+  padding-top:50px;
+  width:200px;
+  margin:auto;
+}
+.posty{
+  min-height: 200px;
+}
+.notes {
+  margin: 0.5em;
+  padding-left: 0;
+  max-width: 10em;
+  list-style: none;
+}
+.add-note{
+  float:right;
+  color:black;
+  width:10px;
+}
+.note .delete {
+  float: left;
+  font-size:16px;
+  font-weight:bold;
+  padding: 0;
+  color:red;
+  background-color: #FFF59D;
+  border: none;
+  margin-right:5px;
+  cursor: pointer;
+  visibility: hidden;
+}
+.note:hover .delete {
+  visibility: visible;
+}
+.plusbutton{
+  width:100%;
+  padding-bottom:40px;
+}
